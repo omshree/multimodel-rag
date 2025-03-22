@@ -21,7 +21,7 @@ This repository contains **four projects**. Follow the steps below to set up and
 - Navigate to the **`src/`** folder.
 - Run the `semantic_search.py` script:
   ```sh
-  python src/semantic_search.py
+  python semantic_search.py
   ```
 
 ---
@@ -35,8 +35,8 @@ This repository contains **four projects**. Follow the steps below to set up and
 
 ---
 
-### Project 3: **Jupyter Notebook Based Analysis**
-- Similar to Project 2, this project is also a Jupyter Notebook.
+### Project 3: **Churn Prediction**
+- This project is also a Jupyter Notebook.
 - Open the notebook inside the root folder and execute the cells.
   ```sh
   jupyter notebook project3_notebook.ipynb
@@ -45,21 +45,21 @@ This repository contains **four projects**. Follow the steps below to set up and
 ---
 
 ### Project 4: **Interactive Query System**
-- This project consists of three Python files, but you **only need to run `query.py`** inside the `src/` folder.
-- Run the script:
+- Navigate to the **`src/`** folder.
+- Run the `query.py` script:
   ```sh
-  python src/query.py
+  python query.py
   ```
 - The script will prompt you for a query and continue the conversation.
 - If you type **"start"**, it will begin a new session.
 - Otherwise, it will retain the previous chat and continue.
-- **API Key Requirement:** Ensure you add your API key to the configuration file before running.
+- **API Key Requirement:** Ensure you add your API key to the src/retrieve file before running.
 
 ---
 
 ### Future Steps in RAG
 
-We plan to further enhance the RAG pipeline by incorporating the following improvements:
+To further enhance the RAG pipeline by incorporating the following improvements:
 
 **Query Expansion** - Expanding queries to improve retrieval.
 
