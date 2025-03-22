@@ -71,7 +71,6 @@ To further enhance the RAG pipeline by incorporating the following improvements:
 
 **Adding Metadata** - Enriching documents with metadata for better context.
 
-Due to time constraints, we were unable to extensively implement these features, but we may explore them in the future.
 
 ### Notes
 - Ensure that all dependencies are installed before running the projects.
