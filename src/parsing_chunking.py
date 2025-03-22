@@ -67,7 +67,7 @@ def get_index_from_collection(collection_name):
     print('collection is not found.. creating new')
     collection = chroma_client.get_or_create_collection(name=collection_name)
 
-    # Read and Store Markdown Files
+    # Read pdf and Store in Markdown File
     pdf_file = "data/Portfolio-Analysis-Sample.pdf"
     file_path = parse_pdf_to_markdown(pdf_file)  
      
